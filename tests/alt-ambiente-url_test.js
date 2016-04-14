@@ -40,7 +40,7 @@ describe('alt-ambiente-url', function() {
     })
 
     it('não deve retornar o endpoint, estrutura do host não é a padrão', function() {
-      var _endpoint = 'alterdata.com.br__ambiente__';
+      var _endpoint = 'alterdata.com.br__ambiente__/api/alguma-coisa';
       var _host = 'alterdata-dev.com.br';
       var _resultado = 'alterdata.com.br/api/alguma-coisa';
       var _location = {
